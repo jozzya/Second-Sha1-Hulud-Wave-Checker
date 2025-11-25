@@ -19,3 +19,5 @@ Vulnerable package list: [Wiz Blog – Sha1-Hulud 2.0](https://www.wiz.io/blog/s
 @TODO
 
 Refactor the code so it uses the Wiz Sec Public repo to fetch the latest vulnerabilities https://github.com/wiz-sec-public/wiz-research-iocs/blob/main/reports/shai-hulud-2-packages.csv
+
+https://github.com/tenable/shai-hulud-second-coming-affected-packages
