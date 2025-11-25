@@ -1,11 +1,17 @@
 # Second Sha1 Hulud WaveChecker
-Shell script where you can check your npm repo for vulnerability relating to the second wave of Sha1-Hulid Wave
 
+A shell script to check your npm project for vulnerabilities related to the **Second Sha1-Hulud Wave** supply chain attack.
 
+The script scans your `package-lock.json` and compares your package versions against a known list of vulnerable packages.
 
-Copy this into your repo then run scanner.json
-This script will search through your package-lock.json and compare to specific versions of vulnerable packages impact by Second Sha1 Hulid Wave.
+Vulnerable package list: [Wiz Blog – Sha1-Hulud 2.0](https://www.wiz.io/blog/shai-hulud-2-0-ongoing-supply-chain-attack)
 
-Vulnerable list found on - 
+---
 
-https://www.wiz.io/blog/shai-hulud-2-0-ongoing-supply-chain-attack
+## Usage
+
+1. Copy the script into your repository.
+2. Run the scanner:
+
+```bash
+./scanner.sh
